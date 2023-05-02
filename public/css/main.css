@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+
+:root {
+    --font-family: 'Poppins', 'Sans sarif';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}

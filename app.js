@@ -28,6 +28,11 @@ app.use(express.static("."));
 app.set("view engine", "ejs");
 app.set('views', 'views');
 
+app.get(['/'], function(req, res) { 
+  res.render('index');
+});
+  
+
   
 server.listen(port, () => {
     console.log(`Portfolio2023 is live on localhost:${port}`);

@@ -1,14 +1,82 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
 
-:root {
-    --font-family: 'Poppins', 'Sans sarif';
-}
-
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: var(--font-family);
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+
+    margin: 0;
+    padding: 0;
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.component-wrapper {
+    width: 100px;
+    background: rgb(255, 136, 0)!important;
+    box-shadow: 0 0 10px 0 #ffffff;
+}
+
+.fullstack {
+    width: 50px;
+    pointer-events: none;
+}
+
+.intro {
+    background-image: url('../vectors/decoration/space.gif');
+    background-attachment: fixed;
+    background-size: cover;
+    
+    height: 1000px;
+}
+
+.languages {
+    height: 940px;
+    background: #ffffff;
+}
+
+h1 {
+    font-size: 4rem;
+    mix-blend-mode: difference; /* blending mode */
+    color: white; /* text color */
+    user-select: none;
+}
+
+.dotnet, .python, .javascript, .php {
+    width: 450px;
+    height: 450px;
+}
+
+.dotnet {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/1200px-Microsoft_.NET_logo.svg.png');
+    background-size: cover;
+}
+
+.python {
+    background-image: url('https://styles.redditmedia.com/t5_2qh0y/styles/communityIcon_h9cdwd9m75a51.png');
+    background-size: cover;
+    
+}
+
+.javascript {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png');
+    background-size: cover;
+}
+
+.php {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Php_logo.svg/2560px-Php_logo.svg.png');
+    background-position: 50%;
+    background-size: cover;
+}
+
+.lang-images div:hover {
+    transform: scale(1.1);
+}
+
+
